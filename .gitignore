@@ -1,6 +1,9 @@
 # macOS
 .DS_Store
 
+# Private / do-not-commit (anything prefixed with XXX)
+XXX_*
+
 # Original uncompressed video
 *.mov
 
