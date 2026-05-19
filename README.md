@@ -16,13 +16,17 @@ The threshold is adjustable live via a GUI slider — useful because the optimal
 
 **Lip landmark overlay — lips closed (below threshold):**
 
-![Lips closed - closeup](Demo/Demo_Screenshot_03_noPart.png)
-![Lips closed - GUI](Demo/Demo_Screenshot_02_noPart.png)
+<p align="center">
+    <img src="Demo/Demo_Screenshot_03_noPart.png" width="45%">
+    <img src="Demo/Demo_Screenshot_02_noPart.png" width="45%">
+</p>
 
 **Lips parted — detection triggered:**
 
-![Lips parted - closeup](Demo/Demo_Screenshot_03_Part.png)
-![MIMING flag](Demo/Demo_Screenshot_04_Part.png)
+<p align="center">
+    <img src="Demo/Demo_Screenshot_03_Part.png" width="45%">
+    <img src="Demo/Demo_Screenshot_04_Part.png" width="45%">
+</p>
 
 ## Quick start
 
