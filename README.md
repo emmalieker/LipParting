@@ -36,6 +36,21 @@ python MediaPipe_LipParting_QuickDemo.py
 
 Dependencies (`mediapipe`, `opencv-python`) and the face landmark model are downloaded automatically on first run. Press **Q** to quit the GUI.
 
+## CSV Export
+
+<img align="right" src="Demo/Demo_Screenshot_05_Export.png" width="200">
+
+When you quit the GUI (press **Q**), all detected lip-parting events are written to a `.csv` file with four columns:
+
+- **event** — sequential event number
+- **start_s** — event start time (seconds since script launch)
+- **end_s** — event end time
+- **duration_s** — how long the lips were parted (milliseconds)
+
+This makes it easy to analyse miming patterns, count events, or feed the data into downstream processing.
+
+<br clear="right">
+
 ## Configuration
 
 All tuneable parameters are at the top of the script in the "Master":
