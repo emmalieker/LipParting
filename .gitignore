@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Original uncompressed video
+*.mov
+
+# Python
+__pycache__/
+*.pyc
+
+# MediaPipe model (downloaded at runtime)
+face_landmarker.task
+
+# Output data (regenerated each run)
+lipparty_events.csv
